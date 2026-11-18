@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Omar Ahmed - Computer Science Student and Frontend Developer.">
+  <title>Omar Ahmed</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar container">
+    <a href="#home" class="logo">omar<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <i class="fa-regular fa-moon"></i>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  
+  <section class="hero section" id="home">
+    <div class="container hero-container">
+
+      <div class="hero-content reveal">
+        <div class="availability">
+          <span class="availability-dot"></span>
+          Available for opportunities
+        </div>
+
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1>Omar Ahmed<span class="accent-dot">.</span></h1>
+
+        <h2>
+          I'm a <span id="typingText">Frontend Developer</span>
+          <span class="typing-cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+          Computer Science Student passionate about building
+          modern, responsive and user-friendly websites.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            View My Work <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://github.com/Omar-Ahmed2005" target="_blank"  aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/omar-ahmed-06376b314" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:oaye8461@gmail.com" aria-label="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>  
+            <a href="https://wa.me/201140594048" target="_blank">
+            <i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image-area reveal">
+        <div class="photo-decoration"></div>
+
+        <div class="profile-image">
+          <img src="img/photo_2026-06-07_22-24-55.jpg" alt="Omar Ahmed">
+        </div>
+
+        <div class="photo-caption">
+          <span class="caption-line"></span>
+          <p>Frontend Developer <span>·</span> Egypt</p>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#about" class="scroll-down">
+      <span>Scroll to explore</span>
+      <i class="fa-solid fa-arrow-down"></i>
+    </a>
+  </section>
+
+ 
+  <section class="section about-section" id="about">
+    <div class="container">
+
+      <div class="section-heading reveal">
+        <span class="section-label">01 / ABOUT ME</span>
+        <h2>Get to know me<span class="accent-dot">.</span></h2>
+      </div>
+
+      <div class="about-content reveal">
+        <div class="about-title">
+          <h3>
+            Turning ideas into
+            <span>digital experiences.</span>
+          </h3>
+        </div>
+
+        <div class="about-description">
+          <p>
+            I'm Omar Ahmed, a Computer Science student and Frontend Developer
+            from Egypt.
+          </p>
+
+          <p>
+            I enjoy creating modern websites with clean designs,
+            responsive layouts and smooth user experiences.
+            I'm always learning new technologies and improving
+            my development skills through practical projects.
+          </p>
+
+          <a href="#contact" class="text-link">
+            Let's work together
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section class="section skills-section" id="skills">
+    <div class="container">
+
+      <div class="section-heading reveal">
+        <span class="section-label">02 / MY SKILLS</span>
+        <h2>Technologies I use<span class="accent-dot">.</span></h2>
+        <p>Tools and technologies I use to build websites.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <i class="devicon-html5-plain colored"></i>
+          <h3>HTML5</h3>
+          <p>Semantic Structure</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="devicon-css3-plain colored"></i>
+          <h3>CSS3</h3>
+          <p>Styling & Responsive Design</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="devicon-javascript-plain colored"></i>
+          <h3>JavaScript</h3>
+          <p>Interactive Websites</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="devicon-bootstrap-plain colored"></i>
+          <h3>Bootstrap</h3>
+          <p>Responsive Components</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="devicon-react-original colored"></i>
+          <h3>React.js</h3>
+          <p>Reusable UI Components</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section projects-section" id="projects">
+    <div class="container">
+
+      <div class="section-heading reveal">
+        <span class="section-label">03 / MY WORK</span>
+        <h2>Featured projects<span class="accent-dot">.</span></h2>
+        <p>Some of the websites I've worked on.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-number">01</span>
+            <span class="project-icon"><i class="fa-solid fa-stethoscope"></i></span>
+          </div>
+
+          <div class="project-content">
+            <span class="project-category">Healthcare Website</span>
+            <h3>Dr. Tarek Nobi Clinic</h3>
+            <p>
+              A clinic website designed to present services
+              and provide visitors with an easy browsing experience.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+
+            <a href="https://tarek-nobi-clinic.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+              Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-number">02</span>
+            <span class="project-icon"><i class="fa-solid fa-utensils"></i></span>
+          </div>
+
+          <div class="project-content">
+            <span class="project-category">Web Application</span>
+            <h3>Recipe Rescue</h3>
+            <p>
+              A recipe-focused website that helps users
+              explore food ideas and discover recipes.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+
+            <a href="https://recipe-rescue-fawn.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+              Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-number">03</span>
+            <span class="project-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+          </div>
+
+          <div class="project-content">
+            <span class="project-category">E-Commerce Website</span>
+            <h3>Supermarket Website</h3>
+            <p>
+              An online supermarket website with a clean
+              interface for browsing products.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+
+            <a href="https://supermarket-swart-ten.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+              Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+
+      <div class="section-heading reveal">
+        <span class="section-label">04 / CONTACT</span>
+        <h2>Let's connect<span class="accent-dot">.</span></h2>
+      </div>
+
+      <div class="contact-content reveal">
+
+        <div class="contact-text">
+          <h3>
+            Have a project in mind?
+            <span>Let's talk.</span>
+          </h3>
+          <p>
+            Feel free to reach out for opportunities,
+            collaborations or just to say hello.
+          </p>
+        </div>
+
+        <div class="contact-links">
+
+          <a href="mailto:oaye8461@gmail.com" class="contact-item">
+            <span class="contact-icon"><i class="fa-regular fa-envelope"></i></span>
+            <span class="contact-info">
+              <small>Email</small>
+              <strong>oaye8461@gmail.com</strong>
+            </span>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+
+          <a href="https://github.com/Omar-Ahmed2005" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon"><i class="fa-brands fa-github"></i></span>
+            <span class="contact-info">
+              <small>GitHub</small>
+              <strong>Omar-Ahmed2005</strong>
+            </span>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/omar-ahmed-06376b314" target="_blank" class="contact-item">
+            <span class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+            <span class="contact-info">
+              <small>LinkedIn</small>
+              <strong>Omar Ahmed</strong>
+            </span>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="container footer-content">
+    <a href="#home" class="logo">omar<span>.</span></a>
+    <p>Designed & built by Omar Ahmed © <span id="year"></span></p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
